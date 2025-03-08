@@ -24,7 +24,7 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
           <Topbar />
-          <main>
+          <main className="flex flex-row">
             <LeftSidebar />
             <section className="main-container">
               <div className="w-full max-w-4xl">{children}</div>
@@ -38,4 +38,4 @@ export default function RootLayout({
   );
 }
 
-// https://www.youtube.com/watch?v=O5cmLDVTgAs   00:30:00
+// https://www.youtube.com/watch?v=O5cmLDVTgAs   01:00:00
